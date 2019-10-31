@@ -9,6 +9,7 @@ dependencies:
     - field.field.block_content.contact_info.field_phone
     - field.field.block_content.contact_info.field_phone_secondary
     - field.field.block_content.contact_info.field_email
+    - field.field.block_content.contact_info.field_office_hours
 id: block_content.contact_info.default
 targetEntityType: block_content
 bundle: contact_info
@@ -56,6 +57,14 @@ content:
     region: content
   field_email:
     weight: 29
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_office_hours:
+    weight: 32
     settings:
       size: 60
       placeholder: ''
