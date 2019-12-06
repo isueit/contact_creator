@@ -1,0 +1,5 @@
+{
+  "name": "isueit/contact_creator",
+  "type": "drupal-custom-module",
+  "description": "Module that creates a custom block type for the contact information in the footer"
+}
